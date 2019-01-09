@@ -17,7 +17,15 @@ bug is found.
 Version 1.3.x will continue to be maintained adding any further
 functionality deemed necessary or requested.
 
-
+#### DH_Generic_CDA_Stylesheet-1.5.0 | 20/12/2018
+---
+- Added OID for PCML
+- Removed escaped space before Participant Header
+- Added support for iFrame to display PDFs in certain doc types (default off)
+- Updated PCML to PSML description
+- Added hidePatientContactDetails param to allow override masking patient address 
+  and other contact details for documents obtained from My Health Record, the default is true
+	  
 #### DH_Generic_CDA_Stylesheet-1.4.0 | 11/07/2017
 ---
 - Added optional HPI-O for certain Recipient scenarios (asOrganizationPartOf)
@@ -280,3 +288,16 @@ The below is a history log of changes made to the style sheet.
 #### NEHTA_PCEHR_Prescription_and_Dispense_View_CDA_Stylesheet-1.0.0 - 06/03/2013
 ---
 - First published version 
+
+
+
+---
+### > DH_Diagnostic_Imaging_And_Pathology_View Style Sheet Revision Log
+---
+The below is a history log of changes made to the style sheet.
+
+
+#### DH_Diagnostic_Imaging_And_Pathology_View_CDA_Stylesheet-1.1.0 - alpha1 - /06/2018
+---
+- Updated initial version to align with Presentation Guide
+
